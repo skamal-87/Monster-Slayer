@@ -1,0 +1,168 @@
+
+
+.text-center {
+    text-align: center;
+}
+
+.healthbar {
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+}
+
+.controls, .log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.turn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: blue;
+    background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+    color: red;
+    background-color: #ffc0c1;
+}
+
+.special-btn-container {
+    width: 80%;
+    height: 20px;
+     background-color: #eee; 
+    margin: auto;
+    transition: width 500ms;
+    font-family: Courier New, Courier, monospace;
+}
+.health-btn-container{
+    width: 80%;
+    height: 20px;
+     background-color: #eee; 
+    margin: auto;
+    transition: width 500ms;
+    font-family: Courier New, Courier, monospace;
+}
+.btn {
+  display:block;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: 1px solid blue;
+  background-color: blue;
+}
+.btn-press {
+  display:block;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  background-color: gray;
+}
+.fadebutton {
+text-align:center;
+height: 20px;
+background:gray;
+line-height:20px;
+transition: opacity 0.5s;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+-o-transition: all ease 0.5s;
+-ms-transition: all ease 0.5s ;
+transition: all ease 0.5s ;
+border: 1px solid gray;
+border-radius: 100%;
+background-color: gray;
+}
+
+button {
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+
+#start-game {
+    background-color: #aaffb0;
+}
+
+
+#start-game:hover {
+    background-color: #76ff7e;
+}
+
+#attack {
+    background-color: #ff7367;
+}
+
+#attack:hover {
+    background-color: #ff3f43;
+}
+
+#special-attack {
+    background-color: #ffaf4f;
+}
+
+#special-attack-gone {
+    background-color: gray;
+    transition: opacity 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s ;
+    transition: all ease 0.5s ;
+}
+
+#heal-gone {
+    background-color: gray;
+    transition: opacity 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s ;
+    transition: all ease 0.5s ;
+}
+
+
+
+#special-attack:hover {
+    background-color: #ff9a2b;
+}
+
+#heal {
+    background-color: #aaffb0;
+}
+
+#heal:hover {
+    background-color: #76ff7e;
+}
+
+#give-up {
+    background-color: #ffffff;
+}
+
+#give-up:hover {
+    background-color: #c7c7c7;
+}
